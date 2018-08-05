@@ -1,0 +1,67 @@
+body {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: #78D94A;
+}
+
+header {
+    text-align: center;
+    box-shadow: 0px 10px 10px silver;
+    margin: 3em;
+    padding: 1em;
+}
+
+header #logo {
+    box-shadow: 20px 10px 10px silver;
+    border-radius: 50%;
+}
+
+header h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    text-shadow: 5px 2px 5px #B7F19C;
+}
+
+main section {
+    margin: 3em;
+    padding: 1em;
+}
+
+main section h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
+section article {
+    margin: 1em;
+    padding: 1em;
+    box-shadow: 10px 10px 10px silver;
+    border-top-style: outset;
+}
+
+section .repository {
+    margin: 2em;
+    padding: 1em;
+    box-shadow: 10px 10px 10px silver;
+    border-top-style: outset;
+}
+
+section div {
+    text-align: center;
+}
+
+#logo:hover {
+    transform: rotateY(180deg);  
+}
+
+a:link {
+    color: green;
+    text-decoration: none;
+}
+a:visited {
+    color: olivedrab;
+    text-decoration: none;
+}
+a:hover {
+    color: gray;
+    text-decoration: none;
+}
